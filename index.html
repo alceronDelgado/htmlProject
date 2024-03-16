@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SENA PROJECTO</title>
+
+    <style>
+        *{
+            background-color: pink;
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: monospace;
+
+        }
+    </style>
 </head>
 <body>
     <h1>Pagina de prueba</h1>
@@ -25,6 +39,32 @@
         <br>
         <label for="">fecha de nacimiento</label>
         <input type="date" name="" id="">
+        <br>
+        <label for="">Estado Civil</label>
+        <input type="radio" name="" id="">Feliz
+        <input type="radio" name="" id="">Infeliz
+        <input type="radio" name="" id="">Con Varias
+        <input type="radio" name="" id="">Que le importa
+        <br>
+        <label for="">Mis gustos</label>
+        <input type="checkbox" name="" id="">Cine
+        <input type="checkbox" name="" id="">Futbol
+        <input type="checkbox" name="" id="">Kdramas
+        <br>
+        <label for="">Estrato (1 a 6)</label>
+        <input type="range" name="rango" id="" min=1 max=6 list="lista-rango">
+
+        <datalist id="lista-rango">
+            <option value="1" label="1">1</option>
+            <option value="2" label="2">2</option>
+            <option value="3" label="3">3</option>
+            <option value="4" label="4">4</option>
+            <option value="5" label="5">5</option>
+            <option value="6" label="6">6</option>
+        </datalist>
+        <br>
+        <label for="">sube tu foto</label>
+        <input type="file" name="" id="">
     </form>
 
 </body>
