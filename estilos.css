@@ -32,3 +32,10 @@ h2 {
     align-items: center;
     gap: 20px;
 }
+
+.name,
+.lastName {
+    width: 100%;
+    border: none;
+    display: flex;
+}
