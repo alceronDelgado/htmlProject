@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SENA PROJECTO</title>
-
-    <style>
-        *{
-            background-color: pink;
-            margin:0;
-            padding:0;
-            box-sizing: border-box;
-        }
-
-        body{
-            font-family: monospace;
-
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SENA PROYECTO</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
 <body>
-    <h1>Pagina de prueba</h1>
-    <h2>INICIO</h2>
 
-    <form action="" method="post">
-        <label for=""></label>
-        <input type="text" name="" id="">
+        <div>
+            <p class="parrafos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid explicabo placeat, cupiditate ipsum tenetur, eveniet animi voluptates fugit, eos nobis id odit deleniti fuga dicta minima expedita temporibus quaerat numquam?
+            Sed fugiat ut ullam! Ex non earum recusandae quod, tempora amet harum at nam velit tempore aspernatur eum totam est? Cupiditate pariatur eligendi ad vitae? Magnam ipsa maiores necessitatibus iste.
+            Blanditiis similique asperiores dolores omnis odit iure quas vero, nostrum pariatur voluptas ullam consequatur est quidem perspiciatis nemo exercitationem quisquam itaque odio nam fugiat veritatis eligendi rem iste quibusdam! Fugiat!</p>
+        </div>
+
+
+    <div class="container">
+
+        <h1>Pagina de prueba</h1>
+        <h2>INICIO</h2>
+
+        <form action="" method="post" class="formulario">
+        <div class="">
+            <label for="">Nombre:</label>
+            <input type="text" name="" id="">
+        </div>
         <br>
-        <label for="">Apellido</label>
-        <input type="text" name="" id="">
+        <div class="">
+            <label for="">Apellido</label>
+            <input type="text" name="" id="">
+        </div>
         <br>
-        <label for="">Sexo</label>
-        <select name="" id="">
-            <option value="">Hombre</option>
-            <option value="">Mujer</option>
-            <option value="">????</option>
-        </select>
+        <div class="">
+            <label for="">Sexo</label>
+            <select name="" id="">
+                <option value="">Hombre</option>
+                <option value="">Mujer</option>
+                <option value="">????</option>
+            </select>
+        </div>
+            <br>
+            <div class="">
+            <label for="">fecha de nacimiento</label>
+            <input type="date" name="" id="">
+            <br>
+            <label for="">Estado Civil</label>
+            <input type="radio" name="" id="">Feliz
+            <input type="radio" name="" id="">Infeliz
+            <input type="radio" name="" id="">Con Varias
+            <input type="radio" name="" id="">Que le importa
+        </div>
         <br>
-        <label for="">fecha de nacimiento</label>
-        <input type="date" name="" id="">
-        <br>
-        <label for="">Estado Civil</label>
-        <input type="radio" name="" id="">Feliz
-        <input type="radio" name="" id="">Infeliz
-        <input type="radio" name="" id="">Con Varias
-        <input type="radio" name="" id="">Que le importa
-        <br>
-        <label for="">Mis gustos</label>
-        <input type="checkbox" name="" id="">Cine
-        <input type="checkbox" name="" id="">Futbol
-        <input type="checkbox" name="" id="">Kdramas
-        <br>
+        <div class="">
+            <label for="">Mis gustos</label>
+            <input type="checkbox" name="" id="">Cine
+            <input type="checkbox" name="" id="">Futbol
+            <input type="checkbox" name="" id="">Kdramas
+            <br>
+        </div>
         <label for="">Estrato (1 a 6)</label>
         <input type="range" name="rango" id="" min=1 max=6 list="lista-rango">
 
@@ -65,7 +72,12 @@
         <br>
         <label for="">sube tu foto</label>
         <input type="file" name="" id="">
-    </form>
+        </form>
 
-</body>
+        <hr>
+
+
+
+    </div>
+    </body>
 </html>
